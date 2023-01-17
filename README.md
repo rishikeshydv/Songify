@@ -1,2 +1,5 @@
-# spotifyETL_project
-In this project, I have built a data pipeline using Spotify API. This feed will run daily, and it will download the data about the songs that you listened to during a day, and save that data in a SQLite database on your local machine. For example: the data storing process will continue throughout the year. Using these data, you can find a pattern in these data.
+In this project, I have built a data pipeline using Spotify API. 
+
+The DAG file (spotify_dag.py) works in the backend with spotify_project.py to daily run, download the data about the songs that a user listens to during a day, and save that data in a SQLite database on the local machine. 
+
+In the long term, the data storing process can help us make database. Using these data, you can find a pattern in these data.
